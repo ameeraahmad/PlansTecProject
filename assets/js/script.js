@@ -45,6 +45,8 @@ $(function () {
                 function () {
                     $(this).remove();
                     $(".load_screen").remove();
+                    $('body').css("overflow-x", "hidden");
+                    $('body').css("overflow-y", "visible");
                 });
         });
 
