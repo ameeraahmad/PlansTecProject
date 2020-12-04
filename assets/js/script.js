@@ -37,22 +37,24 @@ function showSlides(n) {
 
 $(function () {
     'use strict';
-
-    $(".load_screen .load_img").fadeOut(2000,
-        function () {
-            $('body').css("overflow", "hidden");
-            $(this).parent().fadeOut(2000,
-                function () {
-                    $(this).remove();
-                    $(".load_screen").remove();
-                    $('body').css("overflow-x", "hidden");
-                    $('body').css("overflow-y", "visible");
-                });
-        });
+    //
+    //    $(".load_screen .load_img").fadeOut(2000,
+    //        function () {
+    //            $('body').css("overflow", "hidden");
+    //            $(this).parent().fadeOut(2000,
+    //                function () {
+    //                    $(this).remove();
+    //                    $(".load_screen").remove();
+    //                    $('body').css("overflow-x", "hidden");
+    //                    $('body').css("overflow-y", "visible");
+    //                });
+    //        });
 
     // Magnific Popup
     $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
         //		disableOn: 700,
+        src: "http://www.youtube.com/watch?v=7HKoqNJtMTQ",
+        //        "https://www.youtube.com/watch?v = 0 O2aH4XLbto & fbclid = IwAR3HWw9N8aJlGyN5j2NjIFOBrwGid39sosBb9HYYJMN - HoBJ - WOnFoJi - t0",
         type: 'iframe',
         mainClass: 'mfp-fade',
         removalDelay: 160,

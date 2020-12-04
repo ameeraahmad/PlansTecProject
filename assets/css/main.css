@@ -741,27 +741,5 @@ footer a:hover {
     bottom: 3%;
   }
 }
-.load_screen {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: url(../image/background_pattren.png) #f9fbff;
-  z-index: 199999;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.load_screen .load_img {
-  width: 70%;
-  height: auto;
-  position: absolute;
-  top: 20%;
-  left: 15%;
-}
 
 /*# sourceMappingURL=main.css.map */
