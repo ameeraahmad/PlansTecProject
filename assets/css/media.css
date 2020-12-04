@@ -10,6 +10,9 @@
         font-size: 18px;
         margin: 22px 0;
     }
+    nav #father > li:hover {
+        color: #f9fbff;
+    }
     li.active {
         color: #f9fbff !important;
     }

@@ -9,7 +9,7 @@ $color: #274e9f;
 $center: center;
 body {
     overflow-x: hidden;
-    transition: all ease-in-out .5s;
+    //    transition: all ease-in-out .5s;
     font-family: 'Poppins', sans-serif;
     color: #1F1F1F;
     width: 100%;
@@ -83,6 +83,10 @@ nav {
             font-size: 16px;
             font-weight: 600;
             color: #1f1f1f;
+            transition: .3s color;
+            &:hover {
+                color: #274e9f
+            }
         }
     }
 }
